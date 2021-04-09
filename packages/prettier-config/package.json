@@ -1,0 +1,21 @@
+{
+  "name": "@thibaultgerrier/prettier-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.json",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultGerrier/node-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThibaultGerrier/node-packages/issues"
+  },
+  "homepage": "https://github.com/ThibaultGerrier/node-packages/prettier-config#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
+}

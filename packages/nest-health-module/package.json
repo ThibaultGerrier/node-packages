@@ -1,0 +1,55 @@
+{
+  "name": "@thibaultgerrier/nest-health-module",
+  "version": "1.1.1",
+  "description": "Nest.js health module",
+  "main": "lib/health.module.js",
+  "types": "lib/health.module.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultGerrier/node-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThibaultGerrier/node-packages/issues"
+  },
+  "homepage": "https://github.com/ThibaultGerrier/node-packages/nest-health-module#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^7.6.15"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^7.6.15",
+    "@thibaultgerrier/eslint-config": "1.0.0",
+    "@thibaultgerrier/prettier-config": "1.0.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "@types/uuid": "^8.3.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "typescript": "^4.2.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "testEnvironment": "node"
+  },
+  "prettier": "@thibaultgerrier/prettier-config",
+  "eslintConfig": {
+    "extends": "@thibaultgerrier/eslint-config"
+  }
+}
